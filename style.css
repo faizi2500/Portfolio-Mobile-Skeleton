@@ -75,17 +75,17 @@ header {
   margin-top: 50px;
 }
 
-.social-links {
+.social-links{
   list-style: none;
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   height: 100px;
   align-items: center;
   justify-content: space-evenly;
   flex: 1;
 }
 
-.link {  
+.link {
   width: auto;
 }
 

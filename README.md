@@ -17,15 +17,15 @@ This repository is my portfolio setup that I will be sharing with recruiters to 
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
-git clone git@github.com:faizi2500/hello-world.git
+git clone git@github.com:faizi2500/Portfolio-Mobile-Skeleton.git
 
 
 ## Authors
 👤 Faizan Zahid
 
-GitHub: @faizi2500
-Twitter: @faizi_250
-LinkedIn:
+GitHub: [@faizi2500 ] (https://github.com/faizi2500)
+Twitter: [@faizi_250 ] (https://twitter.com/Faizy_250) 
+LinkedIn: [@faizan2500 ] (www.linkedin.com/in/faizan2500)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

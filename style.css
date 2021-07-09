@@ -2,17 +2,33 @@ html body {
   all: unset;
 }
 
+.welcome-heading {
+  width: 76px;
+  font-size: 18px;
+  position: relative;
+  top: 6px;
+}
+
+.welcome-heading a {
+  color: black;
+}
+
 header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 70%;
 }
 
 .nav-section {
   flex: 1;
+}
+
+.hamburger {
+  position: relative;
+  top: 12px;
 }
 
 .menu {
@@ -37,13 +53,14 @@ header {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30%;
 }
 
 .intro-heading h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 33px;
   line-height: 52px;
   color: #172b4d;
 }

@@ -1,0 +1,118 @@
+html body {
+  all: unset;
+}
+
+.welcome-heading {
+  width: 76px;
+  font-size: 18px;
+  position: relative;
+  top: 6px;
+}
+
+.welcome-heading a {
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.nav-section {
+  flex: 1;
+}
+
+.hamburger {
+  position: relative;
+  top: 12px;
+}
+
+.menu {
+  filter: invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg) brightness(89%) contrast(86%);
+}
+
+.menu:hover {
+  filter: invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg) brightness(87%) contrast(77%);
+}
+
+.first-section {
+  background-image: url("assets/images/mobile-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-heading {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+}
+
+.intro-heading h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+#heading-1 {
+  margin-bottom: 0;
+}
+
+#heading-2 {
+  margin-top: 0;
+  color: green;
+}
+
+.intro-para {
+  width: 327px;
+  height: 164px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.profile-links {
+  width: 70%;
+  margin-top: 50px;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+
+  /* Line Commented Out for following error: */
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.link {
+  width: auto;
+}
+
+.flex-design {
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}

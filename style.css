@@ -24,7 +24,7 @@ header {
 }
 
 .first-section {
-  background-image: url("assets/images/header-illsutration-mobile@2x.png");
+  background-image: url("assets/images/mobile-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -46,9 +46,14 @@ header {
   color: #172B4D;
 }
 
-span {
-  color: green;
+#heading-1 {
+  margin-bottom: 0px;
 }
+
+#heading-2 {
+  margin-top: 0px;
+  color: green;
+ }
 
 .first-section{
   margin-left: auto;

@@ -1,4 +1,4 @@
-html, body {
+html body {
   all: unset;
 }
 
@@ -19,7 +19,7 @@ header {
   filter: invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg) brightness(89%) contrast(86%);
 }
 
-.menu:hover{
+.menu:hover {
   filter: invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg) brightness(87%) contrast(77%);
 }
 
@@ -28,42 +28,39 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.intro-heading{
+.intro-heading {
   text-align: center;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.intro-heading h1 {
-  font-family: 'Inter';
+.intro-heading h2 {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 #heading-1 {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #heading-2 {
-  margin-top: 0px;
+  margin-top: 0;
   color: green;
- }
-
-.first-section{
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .intro-para {
   width: 327px;
   height: 164px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -81,7 +78,7 @@ header {
 .social-links {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   height: 100px;
   align-items: center;
   justify-content: space-evenly;

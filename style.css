@@ -78,7 +78,7 @@ header {
 .social-links {
   list-style: none;
   display: flex;
-  
+
   /* Line Commented Out for following error: */
   height: 100px;
   align-items: center;

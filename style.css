@@ -1,6 +1,7 @@
 html body {
   all: unset;
 }
+
 .framework-knowledge {
   margin-top: 20px;
 }
@@ -39,13 +40,11 @@ header {
 }
 
 .menu {
-  filter: invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg)
-    brightness(89%) contrast(86%);
+  filter: invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg) brightness(89%) contrast(86%);
 }
 
 .menu:hover {
-  filter: invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg)
-    brightness(87%) contrast(77%);
+  filter: invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg) brightness(87%) contrast(77%);
 }
 
 .first-section {
@@ -126,7 +125,7 @@ header {
   align-items: center;
 }
 
-.action-button{
+.action-button {
   background: #36b37f;
   color: white;
   border-radius: 4px;
@@ -155,7 +154,7 @@ header {
   .work-heading {
     text-align: center;
     color: #172b4d;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -173,6 +172,7 @@ header {
   .container-grid {
     display: grid;
     grid-template-rows: auto auto auto;
+
     /* background-color: #2196F3; */
     grid-row-gap: 25px;
   }
@@ -209,6 +209,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
   .display-flex-4 {
     height: 451px;
     width: 300px;
@@ -219,18 +220,19 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
   .language-flex {
     list-style: none;
     width: 268px;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
 
   .language-flex li {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -238,7 +240,7 @@ header {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px;
+    margin: 0;
     letter-spacing: 0.03em;
     background: #ebf0ee;
     border-radius: 4px;
@@ -256,11 +258,11 @@ header {
   }
 
   .project-heading {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    text-align: -webkit-center;
+    text-align: center;
   }
 
   .btn-project-1 {
@@ -268,7 +270,7 @@ header {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 16px 0px;
+    margin: 16px 0;
   }
   .action-button {
     position: absolute;
@@ -288,6 +290,7 @@ header {
   .about-me {
     margin-top: 30%;
   }
+
   .flex-about {
     background-image: url("assets/images/mobile-about-m png");
     background-repeat: no-repeat;
@@ -301,8 +304,9 @@ header {
     margin-left: auto;
     margin-right: auto;
   }
+
   .about-heading {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -312,8 +316,9 @@ header {
     order: 0;
     flex-grow: 0;
   }
+
   .about-para {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -330,19 +335,19 @@ header {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 90px 0px;
+    margin: 90px 0;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    flex: none;
   }
+
   .about-btn {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    margin: 0px 10px;
+    margin: 0 10px;
     background: #36b37f;
     line-height: 24px;
   }
@@ -356,11 +361,11 @@ header {
   }
 
   .skill-flex-1 {
-    background-color: wheat;
+    background-color: silver;
     width: 300px;
     height: 362px;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -368,7 +373,7 @@ header {
   }
 
   .lang-heading {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -380,12 +385,13 @@ header {
     list-style: none;
     display: flex;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     width: 271px;
     height: 40px;
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
+
   .language-list {
     margin-top: 15px;
     color: green;

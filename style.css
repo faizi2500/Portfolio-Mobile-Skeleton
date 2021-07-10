@@ -230,6 +230,18 @@ header {
     text-align: center;
   }
 
+  .project-heading-color {
+    cursor: pointer;
+    text-decoration: none;
+    color: #3A4A42;
+    font-weight: bolder;
+  }
+
+  .project-heading-color:active {
+    color: green;
+
+  }
+
   .btn-project-1 {
     background-color: orange;
     flex: none;

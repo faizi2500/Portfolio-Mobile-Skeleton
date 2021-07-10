@@ -5,7 +5,7 @@ This repository is my portfolio setup that I will be sharing with recruiters to 
 
 ## Live Demo Link
  *Please find the link to watch the demo for my Portfolio*
-  https://www.loom.com/share/0a8747ab995641b89fd0e553e8a9adb0
+  https://www.loom.com/share/c1bf3426044c463d94e5df33a9865a52
 ## Built With
 ### Major languages
 - HTML

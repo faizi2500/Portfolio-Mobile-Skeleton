@@ -172,46 +172,11 @@ header {
   .container-grid {
     display: grid;
     grid-template-rows: auto auto auto;
-
-    /* background-color: #2196F3; */
     grid-row-gap: 25px;
   }
 
   .display-flex-1 {
-    height: 451px;
-    width: 300px;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  .display-flex-2 {
-    height: 451px;
-    width: 300px;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  .display-flex-3 {
-    height: 451px;
-    width: 300px;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-
-  .display-flex-4 {
-    height: 451px;
+    height: 550px;
     width: 300px;
     margin: 0 auto;
     padding: 0;
@@ -274,13 +239,27 @@ header {
   }
 
   .action-button {
+    font-size: 18px;
     position: absolute;
-    width: 122px;
+    width: 130px;
+    height: 50px;
     left: calc(50% - 122px / 2 + 0.5px);
     background: #36b37f;
     color: white;
     border-radius: 4px;
   }
+
+  .btn-project-1 {
+    margin-bottom: 10%;
+  }
+
+  .btn-3 {
+    margin-bottom: 15%;
+  }
+
+  .btn-1 {
+    margin-bottom: 15%;
+  } 
 
   .action-button:hover {
     cursor: pointer;
@@ -331,8 +310,6 @@ header {
   }
 
   .about-button {
-    border-radius: 4px;
-    height: 38px;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -350,7 +327,19 @@ header {
     font-size: 17px;
     margin: 0 10px;
     background: #36b37f;
+    color: white;
     line-height: 24px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 3px 15px;
+  }
+
+  .about-btn:hover {
+    cursor: pointer;
+    color: #36b37f;
+    background-color:blanchedalmond;
+    font-weight: bolder;
+    font-size: 20px;
   }
 
   .skill-set {

@@ -1,6 +1,13 @@
 html body {
   all: unset;
 }
+.framework-knowledge {
+  margin-top: 20px;
+}
+
+.skills-knowledge {
+  margin-top: 20px;
+}
 
 .welcome-heading {
   width: 76px;
@@ -32,11 +39,13 @@ header {
 }
 
 .menu {
-  filter: invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg) brightness(89%) contrast(86%);
+  filter: invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg)
+    brightness(89%) contrast(86%);
 }
 
 .menu:hover {
-  filter: invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg) brightness(87%) contrast(77%);
+  filter: invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg)
+    brightness(87%) contrast(77%);
 }
 
 .first-section {
@@ -57,7 +66,7 @@ header {
 }
 
 .intro-heading h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 33px;
@@ -77,7 +86,7 @@ header {
 .intro-para {
   width: 327px;
   height: 164px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -115,4 +124,274 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.action-button{
+  background: #36b37f;
+  color: white;
+  border-radius: 4px;
+}
+
+.action-button:hover {
+  cursor: pointer;
+  background: white;
+  color: green;
+}
+
+@media screen and (max-width: 412px) {
+  body {
+    all: unset;
+  }
+
+  .work-section {
+    margin-top: 414px;
+  }
+
+  .opening-heading {
+    min-width: 327px;
+    height: 97px;
+  }
+
+  .work-heading {
+    text-align: center;
+    color: #172b4d;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .first-work {
+    list-style: none;
+    height: 451px;
+    width: 250px;
+    margin: 0 auto;
+    border: #d0d9d4 solid 1px;
+  }
+
+  .container-grid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    /* background-color: #2196F3; */
+    grid-row-gap: 25px;
+  }
+
+  .display-flex-1 {
+    height: 451px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .display-flex-2 {
+    height: 451px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .display-flex-3 {
+    height: 451px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .display-flex-4 {
+    height: 451px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .language-flex {
+    list-style: none;
+    width: 268px;
+    align-items: center;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .language-flex li {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    letter-spacing: 0.03em;
+    background: #ebf0ee;
+    border-radius: 4px;
+    padding: 1px 2px;
+  }
+
+  .display-flex-width {
+    width: 268px;
+    margin: 0 auto;
+  }
+
+  .display-flex-width img {
+    width: 268px;
+    height: 252px;
+  }
+
+  .project-heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: -webkit-center;
+  }
+
+  .btn-project-1 {
+    background-color: orange;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  .action-button {
+    position: absolute;
+    width: 122px;
+    left: calc(50% - 122px / 2 + 0.5px);
+    background: #36b37f;
+    color: white;
+    border-radius: 4px;
+  }
+
+  .action-button:hover {
+    cursor: pointer;
+    background: white;
+    color: green;
+  }
+
+  .about-me {
+    margin-top: 30%;
+  }
+  .flex-about {
+    background-image: url("assets/images/mobile-about-m png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .about-para {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    height: 189px;
+    color: #42526e;
+    text-align: center;
+    width: 80%;
+  }
+
+  .about-button {
+    border-radius: 4px;
+    height: 38px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 90px 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    flex: none;
+  }
+  .about-btn {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0px 10px;
+    background: #36b37f;
+    line-height: 24px;
+  }
+
+  .skill-set {
+    margin-top: 50px;
+  }
+
+  .language-knowledge {
+    list-style: none;
+  }
+
+  .skill-flex-1 {
+    background-color: wheat;
+    width: 300px;
+    height: 362px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .lang-heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .about-languages {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    width: 271px;
+    height: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .language-list {
+    margin-top: 15px;
+    color: green;
+    border: grey solid 2px;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 8px;
+  }
 }

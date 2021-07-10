@@ -143,7 +143,7 @@ header {
   }
 
   .work-section {
-    margin-top: 414px;
+    margin-top: 10px;
   }
 
   .opening-heading {
@@ -361,7 +361,7 @@ header {
   }
 
   .skill-flex-1 {
-    background-color: silver;
+    background-color: gray;
     width: 300px;
     height: 362px;
     margin: 0 auto;
@@ -391,7 +391,7 @@ header {
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
-
+  
   .language-list {
     margin-top: 15px;
     color: green;

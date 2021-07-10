@@ -3,6 +3,9 @@ This repository is my portfolio setup that I will be sharing with recruiters to 
 
 ![image](https://user-images.githubusercontent.com/78415728/125063659-2d6b7f00-e0c9-11eb-8e7a-0529b700643e.png)
 
+## Live Demo Link
+ *Please find the link to watch the demo for my Portfolio*
+  https://www.loom.com/share/0a8747ab995641b89fd0e553e8a9adb0
 ## Built With
 ### Major languages
 - HTML

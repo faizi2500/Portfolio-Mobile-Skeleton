@@ -272,6 +272,7 @@ header {
     flex-grow: 0;
     margin: 16px 0;
   }
+  
   .action-button {
     position: absolute;
     width: 122px;
@@ -392,7 +393,7 @@ header {
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
-  
+
   .language-list {
     margin-top: 15px;
     color: green;

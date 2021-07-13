@@ -428,6 +428,7 @@ header {
     margin: 0 auto;
     margin-top: 50px;
   }
+  
   .footer-paragraph {
     font-family: Inter;
     font-style: normal;
@@ -438,6 +439,7 @@ header {
     padding-bottom: 45px;
     color: #172b4d;
   }
+
   .contact-flex {
     list-style: none;
     display: flex;
@@ -447,6 +449,7 @@ header {
     height: 327px;
     padding-left: 0px;
   }
+
   .form-control input {
     width: 300px;
     height: 50px;
@@ -459,6 +462,7 @@ header {
     border: 1px solid #d0d9d4;
     border-radius: 15 px;
   }
+
   #text-area {
     width: 310px;
     height: 114px;
@@ -470,9 +474,11 @@ header {
     border: 1px solid #60c095;
     border-radius: 15px;
   }
+
   .margin-gap {
     margin-top: 30px;
   }
+
   .btn-form {
     width: 129px;
     height: 48px;
@@ -496,10 +502,12 @@ header {
   .footer-social-links {
     height: 25px;
   }
+
   .footer-social-height {
     margin-top: 50px;
     margin-bottom:0px
   }
+
   .my-email {
     text-align: center;
     padding-bottom: 100px;

@@ -46,13 +46,11 @@ header {
 }
 
 .menu {
-  filter: invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg)
-    brightness(89%) contrast(86%);
+  filter: invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg) brightness(89%) contrast(86%);
 }
 
 .menu:hover {
-  filter: invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg)
-    brightness(87%) contrast(77%);
+  filter: invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg) brightness(87%) contrast(77%);
 }
 
 .first-section {
@@ -112,7 +110,7 @@ header {
   list-style: none;
   display: flex;
   margin-bottom: 15%;
-  padding-left: 0px;
+  padding-left: 0;
 
   /* Line Commented Out for following error: */
   height: 40px;
@@ -428,9 +426,9 @@ header {
     margin: 0 auto;
     margin-top: 50px;
   }
-  
+
   .footer-paragraph {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -447,7 +445,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     height: 327px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .form-control input {
@@ -458,15 +456,16 @@ header {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
+
     /* line-height: 24px; */
     border: 1px solid #d0d9d4;
-    border-radius: 15 px;
+    border-radius: 15px;
   }
 
   #text-area {
     width: 310px;
     height: 114px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -487,7 +486,7 @@ header {
     color: white;
     margin-top: 15px;
     font-size: 17px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     text-align: center;
@@ -505,7 +504,7 @@ header {
 
   .footer-social-height {
     margin-top: 50px;
-    margin-bottom:0px
+    margin-bottom: 0px;
   }
 
   .my-email {

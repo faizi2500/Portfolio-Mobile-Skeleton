@@ -487,6 +487,12 @@ header {
     text-align: center;
     margin-bottom: 15px;
   }
+
+  .btn-form:hover {
+    background-color: white;
+    color: #36b37f;
+  }
+
   .footer-social-links {
     height: 25px;
   }

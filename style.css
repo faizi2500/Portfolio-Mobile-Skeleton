@@ -706,10 +706,19 @@ header {
     margin: 0;
     width: 90%;
     margin: 0 auto;
+    background-image: url(assets/images/about-me-desktop-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70% 70%;
+  }
+
+  .flex-about {
+    
   }
 
   .about-para {
     margin: 0;
+    width: 70%;
   }
 
   .framework-knowledge, .skills-knowledge{
@@ -771,6 +780,15 @@ header {
     width: 100%;
   }
 
+  .footer {
+    /* background-color: lightcoral; */
+    background-image: url(assets/images/image-footer-left.png);
+    /* background-position: bottom; */
+    background-position-y: 205px;
+    background-repeat: no-repeat;
+    background-size: 10%;
+  }
+
   .desktop-footer-section {
     width: 100%;
     margin: 0;
@@ -782,7 +800,7 @@ header {
   }
 
   .footer-paragraph {
-    /* background-color: lightcoral; */
+    
     align-self: center;
     padding-left: 5%;
     margin: 0;
@@ -798,11 +816,22 @@ header {
   .desktop-form {
     /* background-color: yellow; */
     align-self: baseline;
+    background-image: url(assets/images/image-footer-right.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:  20%;
+  }
+
+  .footer-image {
+    background-image: url(assets/images/image-footer-left.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:  20%;
   }
 
   .contact-flex {
     height: 100%;
-    width: 100%;
+    width: 80%;
     align-items: baseline;
   }
 

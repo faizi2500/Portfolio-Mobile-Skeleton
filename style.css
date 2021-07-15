@@ -19,6 +19,12 @@ body {
   /* background-color: blanchedalmond; */
   width: 100%;
 }
+@media screen and (max-width:799px){
+  .desktop-navigation {
+    display: none;
+  }
+}
+
 
 .framework-knowledge {
   margin-top: 20px;
@@ -269,7 +275,7 @@ header {
   }
 
   .btn-project-1 {
-    background-color: orange;
+    /* background-color: orange; */
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -278,7 +284,7 @@ header {
 
   .action-button {
     font-size: 18px;
-    position: absolute;
+    position: relative;
     width: 130px;
     height: 50px;
     left: calc(50% - 122px / 2 + 0.5px);
@@ -542,6 +548,7 @@ header {
 
   .desktop-nav {
     /* background-color: yellow; */
+    display:;
     width: 100%;
     height: 42px;
     margin-left: auto;
@@ -554,7 +561,7 @@ header {
     font-size: 15px;
     line-height: 20px;
   }
-  
+
 
 
   .first-section {
@@ -589,7 +596,7 @@ header {
     margin: 0;
     /* margin-left: auto;
     margin-right: auto; */
-    height: 114px; 
+    height: 114px;
     font-weight: 800;
     font-size: 40px;
     line-height: 60px;
@@ -605,8 +612,131 @@ header {
     /* margin: 0 auto; */
     /* margin-top: 5%; */
   }
- 
+
   .profile-links {
     margin: 0;
+  }
+
+  .container-grid {
+    /* background-color: lavender; */
+    /* margin: 0 auto; */
+    width: 90%;
+    height: 1250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 4%;
+    grid-column-gap: 1%;
+  }
+
+  .action-button{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+  }
+
+  .display-flex-1 {
+    margin: 0;
+    justify-content: space-between;
+  }
+
+  .project1-image {
+    margin: 0;
+    width: 100%;
+    height: 60%;
+    background-color: #EBF0EE;
+  }
+
+  .display-flex-width img {
+    display: none;
+  }
+
+  .btn-3 {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .project-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .languages-used {
+    width: 100%;
+    /* background-color: green; */
+  }
+
+  .languages {
+    margin: 0;
+    align-self: center ;
+  }
+
+  .language-flex {
+    width: 100%;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .language-flex li {
+    font-size: 13px;
+    padding-inline: 5px;
+  }
+
+  .display-flex-width {
+    /* margin: auto; */
+  }
+
+  .display-flex-width li {
+
+  }
+
+  .first-work {
+    width: 100%;
+    /* height: 750px; */
+  }
+
+  .about-me {
+    margin: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .about-para {
+    margin: 0;
+  }
+
+  .framework-knowledge, .skills-knowledge{
+    margin: 0;
+  }
+
+  .skill-set {
+    width: 95%;
+    /* padding-top: 15px; */
+    /* background-color: lawngreen; */
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .skill-container {
+    width: 100%;
+    /* background-color: lavenderblush; */
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    /* padding-top: 10px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1%;
+    justify-content:space-between;
+  }
+
+  .skill-container-1 {
+    width: 90%;
+    margin: 0
+  }
+
+  .skill-flex-1 {
+    width: 100%;
   }
 }

@@ -65,13 +65,13 @@ header {
 
 .menu {
   filter:
-  invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg)
+    invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg)
     brightness(89%) contrast(86%);
 }
 
 .menu:hover {
-  filter: 
-  invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg)
+  filter:
+    invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg)
     brightness(87%) contrast(77%);
 }
 

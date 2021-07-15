@@ -8,6 +8,18 @@ html body {
   padding: 0;
 }
 
+body {
+  all: unset;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.body-size {
+  background-color: blanchedalmond;
+  width: 100%;
+  margin-left: 7.5%;
+}
 .framework-knowledge {
   margin-top: 20px;
 }
@@ -148,19 +160,6 @@ header {
   color: green;
 }
 
-@media screen and (max-width: 412px) {
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    all: unset;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
 
   .work-section {
     margin-top: 10px;

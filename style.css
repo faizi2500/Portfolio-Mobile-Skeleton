@@ -726,20 +726,36 @@ header {
   }
 
   .skill-container {
-    width: 100%;
+    width: 90%;
     /* background-color: lavenderblush; */
     margin: 0 auto;
     /* border: 2px solid black; */
-    /* padding-top: 10px; */
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 1%;
-    justify-content:space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-column-gap: 1%; */
   }
 
   .skill-container-1 {
-    width: 90%;
-    margin: 0
+    width: 70%;
+    margin: 0;
+
+  }
+
+  .language-image img{
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  .skill-flex-width {
+    width: 100%;
+  }
+
+  .about-languages {
+    /* width: auto; */
+    width: 80%;
+    margin: 0 auto;
+    font-size: small;
   }
 
   .skill-flex-1 {

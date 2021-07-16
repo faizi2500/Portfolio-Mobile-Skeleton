@@ -17,8 +17,6 @@ body {
 }
 
 .body-size {
-
-  /* background-color: blanchedalmond; */
   width: 100%;
 }
 
@@ -561,7 +559,7 @@ header {
     cursor: pointer;
     height: 45px;
     width: 80%;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
   }
 
   .desktop-nav li {
@@ -571,7 +569,14 @@ header {
     transition-delay: 1ms;
   }
 
-  .desktop-nav li:hover{
+  .language-flex li {
+
+    /* copied this piece of code from after .language-flex selector */
+    font-size: 13px;
+    padding-inline: 5px;
+  }
+
+  .desktop-nav li:hover {
     font-size: 20px;
   }
 
@@ -637,16 +642,18 @@ header {
       font-weight: lighter;
       color: black;
     }
+
     50% {
       opacity: 50%;
       font-size: 30px;
       font-weight: normal;
     }
+
     100% {
       opacity: 100%;
       font-size: 40px;
       font-weight: bold;
-      color: #172B4D;
+      color: #172b4d;
    }
   }
 
@@ -705,11 +712,6 @@ header {
     width: 100%;
     align-items: center;
     margin-right: 0;
-  }
-
-  .language-flex li {
-    font-size: 13px;
-    padding-inline: 5px;
   }
 
   .first-work {

@@ -12,11 +12,20 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="body-size">
     <header class="nav-section">
       <div class="welcome-heading">
         <a href="#" rel="noopener noreferrer">Welcome</a>
       </div>
-      <nav>
+      <nav class="web-navigation">
+        <div class="desktop-navigation">
+          <ul class="desktop-nav">
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+
+        </div>
         <img
           class="menu hamburger"
           src="assets/images/Icon-Menu.png"
@@ -24,7 +33,7 @@
         />
       </nav>
     </header>
-    <section class="first-section">
+    <section class="first-section desktop-first-section">
       <div class="flex-box">
         <div class="flex-design">
           <div class="intro-heading">
@@ -108,9 +117,9 @@
                 </a>
               </li>
             </ul>
-            <div class="downward-arrow">
-              <img src="assets/images/Action.png" alt="" />
-            </div>
+          </div>
+          <div class="downward-arrow">
+            <img src="assets/images/Action.png" alt="" />
           </div>
         </div>
       </div>
@@ -161,7 +170,7 @@
               />
             </li>
             <li class="display-flex-width heading-height">
-              <h3 class="project-heading"><a href="#/" class="project-heading-color" rel="noopener noreferrer">Multi Post Stories</a></h3>
+              <h3 class="project-heading"><a href="#/" class="project-heading-color" rel="noopener noreferrer">Multi Post Stories: Gain + Glory</a></h3>
             </li>
             <li class="display-flex-width languages-used">
               <ul class="languages language-flex">
@@ -229,10 +238,65 @@
             </li>
           </ul>
         </div>
+        <!--DESKTOP ADDITIONAL 2 PROJECTS TO FILL THE GRID-->
+        <div class="section-container2 section-box item-grid">
+          <ul class="first-work display-flex-1">
+            <li class="project1-image display-flex-width">
+              <img
+                class="p1"
+                src="assets/images/work-project4.png"
+                alt="Art Prinitngs: Personalized Art Selection"
+                rel="noopener noreferrer"
+              />
+            </li>
+            <li class="display-flex-width heading-height">
+              <h3 class="project-heading"><a href="#/" class="project-heading-color" rel="noopener noreferrer">Art Printing Portfolio</a></h3>
+            </li>
+            <li class="display-flex-width languages-used">
+              <ul class="languages language-flex">
+                <li>Ruby on rails</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+              </ul>
+            </li>
+            <li class="display-flex-width btn-3 btn-project-1">
+              <button class="action-button" type="button">See Project</button>
+            </li>
+          </ul>
+        </div>
+        <div class="section-container2 section-box item-grid">
+          <ul class="first-work display-flex-1">
+            <li class="project1-image display-flex-width">
+              <img
+                class="p1"
+                src="assets/images/work-project4.png"
+                alt="Art Prinitngs: Personalized Art Selection"
+                rel="noopener noreferrer"
+              />
+            </li>
+            <li class="display-flex-width heading-height">
+              <h3 class="project-heading"><a href="#/" class="project-heading-color" rel="noopener noreferrer">Art Printing Portfolio</a></h3>
+            </li>
+            <li class="display-flex-width languages-used">
+              <ul class="languages language-flex">
+                <li>Ruby on rails</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+              </ul>
+            </li>
+            <li class="display-flex-width btn-3 btn-project-1">
+              <button class="action-button" type="button">See Project</button>
+            </li>
+          </ul>
+        </div>
+        <!--End of Desktop Grid Filling-->
       </div>
     </section>
 
     <section class="about-me">
+      <div class="left-about-image"></div> 
       <div class="flex-about">
         <div class="about-heading"><h3>About Me</h3></div>
         <div class="about-para">
@@ -321,8 +385,9 @@
     </section>
 
     <footer class="footer-section footer">
+      <div class="desktop-footer-section">
       <p class="footer-paragraph">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-      <form action="https://formspree.io/f/mgerlalj" method="POST">
+      <form class="desktop-form" action="https://formspree.io/f/mgerlalj" method="POST">
         <ul class="contact-form contact-flex">
           <li class="form-control">
             <input type="text" name="user-name" id="name" placeholder="Full Name" maxlength="30" required >
@@ -336,11 +401,14 @@
             <textarea name="text-area" class="margin-gap" id="text-area" maxlength="500" placeholder="Enter text here." required></textarea>
           </li>
 
-          <li>
+          <li class="footer-image">
             <button class="btn-form" type="submit">Get In Touch</button>
           </li>
         </ul>      
       </form>
+    </div>
+
+    <div class="line-break"> <hr> </div>
       <div class="footer-social-links">
         <ul class="social-links footer-social-height">
           <li class="link github">
@@ -416,5 +484,6 @@
       
 
     </footer>
+  </div>
   </body>
 </html>

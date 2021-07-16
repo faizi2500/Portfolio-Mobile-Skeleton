@@ -79,17 +79,21 @@ header {
   background-image: url("assets/images/mobile-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 726px;
+  height: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.flex-box {
+  height: 100%;
+}
+
 .intro-heading {
   text-align: center;
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30%;
+  /* margin-top: %; */
 }
 
 .intro-heading h2 {
@@ -111,7 +115,7 @@ header {
 }
 
 .intro-para {
-  width: 50%;
+  width: 90%;
   height: 164px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -120,19 +124,19 @@ header {
   line-height: 28px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   text-align: center;
 }
 
 .profile-links {
   width: 70%;
-  margin-top: 25px;
+  /* margin-top: 25px; */
 }
 
 .social-links {
   list-style: none;
   display: flex;
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
   padding-left: 0;
 
   /* Line Commented Out for following error: */
@@ -151,7 +155,7 @@ header {
 
 .flex-design {
   /* background-color: thistle; */
-  height: 600px;
+  height: 100%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -563,7 +567,7 @@ header {
   }
 
   .flex-box {
-    width: 70%;
+    width: 73%;
     height: 600px;
     margin: 0 auto;
     padding-top: 10%;
@@ -571,8 +575,8 @@ header {
 
   .flex-design {
     margin-top: 0;
-    width: 90%;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
   }
 
   .intro-heading {
@@ -586,7 +590,7 @@ header {
   }
 
   .intro-para {
-    width: 85%;
+    width: 80%;
     height: 111px;
     margin: 0;
     text-align: center;

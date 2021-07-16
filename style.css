@@ -570,7 +570,6 @@ header {
   }
 
   .language-flex li {
-
     /* copied this piece of code from after .language-flex selector */
     font-size: 13px;
     padding-inline: 5px;
@@ -654,7 +653,7 @@ header {
       font-size: 40px;
       font-weight: bold;
       color: #172b4d;
-   }
+    }
   }
 
   .container-grid {

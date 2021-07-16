@@ -6,6 +6,7 @@
 
 html {
   all: unset;
+  scroll-behavior:smooth;
 }
 
 body {

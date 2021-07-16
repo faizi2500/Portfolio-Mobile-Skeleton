@@ -6,6 +6,7 @@
 
 html {
   all: unset;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -16,7 +17,6 @@ body {
 }
 
 .body-size {
-  /* background-color: blanchedalmond; */
   width: 100%;
 }
 
@@ -79,17 +79,20 @@ header {
   background-image: url("assets/images/mobile-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 726px;
+  height: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.flex-box {
+  height: 100%;
+}
+
 .intro-heading {
   text-align: center;
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30%;
 }
 
 .intro-heading h2 {
@@ -111,7 +114,7 @@ header {
 }
 
 .intro-para {
-  width: 50%;
+  width: 90%;
   height: 164px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -120,22 +123,17 @@ header {
   line-height: 28px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 10px;
   text-align: center;
 }
 
 .profile-links {
   width: 70%;
-  margin-top: 25px;
 }
 
 .social-links {
   list-style: none;
   display: flex;
-  margin-bottom: 15%;
   padding-left: 0;
-
-  /* Line Commented Out for following error: */
   height: 40px;
   align-items: center;
   justify-content: space-evenly;
@@ -143,6 +141,9 @@ header {
   width: 230px;
   margin-right: auto;
   margin-left: auto;
+  animation-name: social-slide-in;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 
 .link {
@@ -150,8 +151,7 @@ header {
 }
 
 .flex-design {
-  /* background-color: thistle; */
-  height: 600px;
+  height: 100%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -181,6 +181,8 @@ header {
   font-weight: bold;
   font-size: 40px;
   line-height: 45px;
+  animation-name: work-heading-animate;
+  animation-duration: 3s;
 }
 
 .first-work {
@@ -266,7 +268,6 @@ header {
 }
 
 .btn-project-1 {
-  /* background-color: orange; */
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -342,8 +343,6 @@ header {
   flex: none;
   order: 2;
   flex-grow: 0;
-
-  /* margin: 90px 0; */
   display: flex;
   align-items: center;
   text-align: center;
@@ -422,7 +421,6 @@ header {
   border-radius: 8px;
 }
 
-/* ! isaac  */
 .footer {
   width: 327px;
   margin: 0 auto;
@@ -543,6 +541,7 @@ header {
   .desktop-nav {
     width: 100%;
     height: 42px;
+    background-color: transparent;
     margin-left: auto;
     margin-right: auto;
     list-style: none;
@@ -551,6 +550,33 @@ header {
     align-items: center;
     font-size: 15px;
     line-height: 20px;
+    transition-property: height, background-color, width;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+  }
+
+  .desktop-nav:hover {
+    cursor: pointer;
+    height: 45px;
+    width: 80%;
+    background-color: whitesmoke;
+  }
+
+  .desktop-nav li {
+    font-size: 15px;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 1ms;
+  }
+
+  .language-flex li {
+    /* copied this piece of code from after .language-flex selector */
+    font-size: 13px;
+    padding-inline: 5px;
+  }
+
+  .desktop-nav li:hover {
+    font-size: 20px;
   }
 
   .first-section {
@@ -563,7 +589,7 @@ header {
   }
 
   .flex-box {
-    width: 70%;
+    width: 73%;
     height: 600px;
     margin: 0 auto;
     padding-top: 10%;
@@ -571,8 +597,8 @@ header {
 
   .flex-design {
     margin-top: 0;
-    width: 90%;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
   }
 
   .intro-heading {
@@ -586,7 +612,7 @@ header {
   }
 
   .intro-para {
-    width: 85%;
+    width: 80%;
     height: 111px;
     margin: 0;
     text-align: center;
@@ -594,6 +620,40 @@ header {
 
   .profile-links {
     margin: 0;
+  }
+
+  @keyframes social-slide-in {
+    from {
+      height: 80px;
+      width: 500px;
+    }
+
+    to {
+      height: 40px;
+      width: 230px;
+    }
+  }
+
+  @keyframes work-heading-animate {
+    0% {
+      opacity: 0%;
+      font-size: 20px;
+      font-weight: lighter;
+      color: black;
+    }
+
+    50% {
+      opacity: 50%;
+      font-size: 30px;
+      font-weight: normal;
+    }
+
+    100% {
+      opacity: 100%;
+      font-size: 40px;
+      font-weight: bold;
+      color: #172b4d;
+    }
   }
 
   .container-grid {
@@ -651,11 +711,6 @@ header {
     width: 100%;
     align-items: center;
     margin-right: 0;
-  }
-
-  .language-flex li {
-    font-size: 13px;
-    padding-inline: 5px;
   }
 
   .first-work {

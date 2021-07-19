@@ -1,10 +1,10 @@
 # My Portfolio
 This repository is my portfolio setup that I will be sharing with recruiters to evaluate my past work history and experience. It has been linked to all my social media profile URLs 
 
-![image](https://user-images.githubusercontent.com/78415728/125063659-2d6b7f00-e0c9-11eb-8e7a-0529b700643e.png)
+![image](https://user-images.githubusercontent.com/78415728/126153979-04155911-3a64-485a-9697-1526849fa606.png)
 
-## Live Demo Link
- [Click to view the demo](https://www.loom.com/share/c1bf3426044c463d94e5df33a9865a52)
+## Live Demo Link for Github-Page Branch
+ [Click to view the demo](https://faizi2500.github.io/Portfolio-Mobile-Skeleton/)
 ## Built With
 ### Major languages
 - HTML

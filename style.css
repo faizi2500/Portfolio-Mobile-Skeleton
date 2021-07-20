@@ -259,7 +259,7 @@ header {
 }
 
 .display-flex-width {
-  width: 268px;
+  min-width: 268px;
   margin: 0 auto;
 }
 
@@ -267,6 +267,12 @@ header {
   width: 268px;
   min-height: 252px;
   height: auto;
+}
+
+.display-flex-width button {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-heading {
@@ -316,6 +322,7 @@ header {
 
 .btn-3 {
   /* margin-bottom: 15%; */
+  margin-inline: auto;
 }
 
 .about-me {

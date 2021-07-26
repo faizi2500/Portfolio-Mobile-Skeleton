@@ -61,6 +61,7 @@ header {
 .hamburger {
   position: relative;
   top: 12px;
+  cursor: pointer;
 }
 
 .mobile-menu-section {

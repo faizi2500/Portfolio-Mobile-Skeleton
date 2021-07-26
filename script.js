@@ -25,4 +25,3 @@ crossButton.addEventListener('click', closeMenu);
 list.forEach((list) => {
   list.addEventListener('click', closeMenu);
 })
-

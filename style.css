@@ -42,7 +42,13 @@ body {
 }
 
 .welcome-heading a {
-  color: black;
+  color: #28352f;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
 }
 
 header {
@@ -101,6 +107,11 @@ header {
 .mobile-links-color {
   margin-bottom: 40px;
   font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  color: #3a4a42;
 }
 
 .menu {

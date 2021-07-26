@@ -13,7 +13,7 @@ function closeMenu() {
 }
 
 function openMenu() {
-  if (menu == false) {
+  if (menu === false) {
     mobileMenuSection.style.display = 'block';
     menu = true;
   } else closeMenu();

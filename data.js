@@ -3,6 +3,7 @@ let projects = {
     image: {
       imageUrl: './assets/images/work-project1.png',
       altText: 'This image is a project thumbnail',
+      modalImage: './assets/images/modal-img.png',
     },
     projectHeading: 'Tonic Project: Personalized Reading',
     popupHeading: 'Keeping track of hundreds of components',
@@ -18,6 +19,7 @@ let projects = {
     image: {
       imageUrl: './assets/images/work-project2.png',
       altText: 'This image is a project thumbnail',
+      modalImage: './assets/images/modal-img.png',
     },
     projectHeading: 'Multi Post Stories: Gain + Glory',
     popupHeading: 'Keeping track of hundreds of components',
@@ -33,6 +35,7 @@ let projects = {
     image: {
       imageUrl: './assets/images/work-project2.png',
       altText: 'This image is a project thumbnail',
+      modalImage: './assets/images/modal-img.png',
     },
     projectHeading: 'Multi Post Stories: Gain + Glory',
     popupHeading: 'Keeping track of hundreds of components',
@@ -48,6 +51,7 @@ let projects = {
     image: {
       imageUrl: './assets/images/work-project3.png',
       altText: 'This image is a project thumbnail',
+      modalImage: './assets/images/modal-img.png',
     },
     projectHeading: 'Health and Fitness Project',
     popupHeading: 'Keeping track of hundreds of components',
@@ -63,6 +67,7 @@ let projects = {
     image: {
       imageUrl: './assets/images/work-project4.png',
       altText: 'This image is a project thumbnail',
+      modalImage: './assets/images/modal-img.png',
     },
     projectHeading: 'Art Printing Portfolio',
     popupHeading: 'Keeping track of hundreds of components',
@@ -78,6 +83,7 @@ let projects = {
     image: {
       imageUrl: './assets/images/work-project4.png',
       altText: 'This image is a project thumbnail',
+      modalImage: './assets/images/modal-img.png',
     },
     projectHeading: 'Art Printing Portfolio',
     popupHeading: 'Keeping track of hundreds of components',
@@ -93,6 +99,7 @@ let projects = {
     image: {
       imageUrl: './assets/images/work-project4.png',
       altText: 'This image is a project thumbnail',
+      modalImage: './assets/images/modal-img.png',
     },
     projectHeading: 'Art Printing Portfolio',
     popupHeading: 'Keeping track of hundreds of components',
@@ -148,6 +155,53 @@ function gridFunction(project, index) {
 
 
 function modalFunction(project, index) {
-  
+  let cardText = 
+  `<section class="modal-section" id="modal">
+    <div class="modal-container">
+      <div class="modal-content">
+        <div class="times">&times;</div>
+        <div class="modal-image">
+          <img src="${project.image.modalImage}" alt="${project.image.altText}"/>
+        </div>
+        <div class="modal-title">
+          <h2 class="modal-title about-heading">${project.popupHeading}</h2>
+        </div>
+        <ul class="modal-list">`;
+    for (let i = 0; i < project.languages.length; i += 1) {
+        cardText += `<li>${project.languages[i]}</li>`;
+    }
+
+      cardText += 
+        `</ul>
+        <div class="modal-paragraph">
+          <p>${project.description}</p>
+        </div>
+        <div class="btn">
+          <a href="https://faizi2500.github.io/Portfolio-Mobile-Skeleton/">
+          ${project.liveVersion} <i class="fas fa-external-link-alt f-icon"></i>
+          </a>
+          <a href="https://github.com/faizi2500/Portfolio-Mobile-Skeleton">
+          ${project.sourceCode} <i class="fab fa-github f-icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>`;
+
+    return cardText
 }
 
+function addHTML() {
+  const projNames = Object.keys(projects);
+  const projLength = Object.keys(projects).length;
+  for (let i = 0; i< projLength; i++) {
+    gridDiv.innerHTML += gridFunction(projects[projNames[i]], i);
+  }
+  
+  for (let j=0; j <projLength; i++) {
+    gridDiv.innerHTML += modalFunction(projects[projNames[i]], i);
+  }
+}
+
+
+
+gridDiv.onload = addHTML();

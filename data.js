@@ -143,7 +143,11 @@ function gridFunction(project, index) {
   </ul>
 </div>`;
 
-  console.log(cardText);
+  return cardText
 }
 
-gridFunction(projects.firstProject, 1);
+
+function modalFunction(project, index) {
+  
+}
+

@@ -182,7 +182,7 @@
           <h2 class="work-heading">My Recent Works</h2>
         </div>
         <div class="container-box container-grid">
-          <!-- <div class="section-container1 section-box item-grid">
+          <div class="section-container1 section-box item-grid">
             <ul class="first-work display-flex-1">
               <li class="project1-image display-flex-width">
                 <img
@@ -212,7 +212,13 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(0)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
@@ -247,7 +253,13 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(1)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
@@ -282,7 +294,13 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(2)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
@@ -316,12 +334,18 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(3)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
-          </div> -->
+          </div>
           <!--DESKTOP ADDITIONAL 2 PROJECTS TO FILL THE GRID-->
-          <!-- <div class="section-container2 section-box item-grid">
+          <div class="section-container2 section-box item-grid">
             <ul class="first-work display-flex-1">
               <li class="project1-image display-flex-width">
                 <img
@@ -351,7 +375,13 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(4)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
@@ -385,11 +415,43 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(5)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
-          </div> -->
+          </div>
           <!--End of Desktop Grid Filling-->
+        </div>
+      </section>
+      <!-- Modal -->
+      <section class="modal-section invisible" id="modal">
+        <div class="modal-container">
+          <div class="modal-content">
+            <div class="modal-image">
+              <div class="times" onclick="toggle()">&times;</div>
+              <img src="assets/images/modal-img.png" alt="" class="img" />
+            </div>
+            <div class="modal-title">
+              <h2 class="about-heading modal-heading"></h2>
+            </div>
+            <ul class="modal-list"></ul>
+            <div class="modal-paragraph">
+              <p class="modal-p"></p>
+            </div>
+            <div class="btn">
+              <a href="" class="f-icon-1"
+                >See Live <i class="fas fa-external-link-alt f-icon"></i
+              ></a>
+              <a href="" class="f-icon-2"
+                >See Source <i class="fab fa-github f-icon f-icon-2"></i
+              ></a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -481,7 +543,6 @@
           </div>
         </div>
       </section>
-
       <footer class="footer-section footer" id="contact-nav-link">
         <div class="desktop-footer-section">
           <p class="footer-paragraph">

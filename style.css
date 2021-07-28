@@ -115,6 +115,10 @@ ul {
   margin-left: 10px;
 }
 
+.invisible {
+  display: none !important;
+}
+
 @media screen and (max-width: 799px) {
   .desktop-navigation {
     display: none;

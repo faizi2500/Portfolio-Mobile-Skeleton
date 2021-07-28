@@ -634,6 +634,21 @@ header {
   margin-top: 30px;
 }
 
+.error-parent {
+  width: 95%;
+  margin: auto;
+  display: none;
+  margin-top: 1rem;
+  color: red;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 3%;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  z-index: 5;
+  background-color: white;
+}
+
 .btn-form {
   width: 129px;
   height: 48px;
@@ -1056,6 +1071,11 @@ header {
 
   #text-area {
     width: 100%;
+  }
+
+  .error-parent {
+    width: 75%;
+    margin: 0;
   }
 
   .line-break {

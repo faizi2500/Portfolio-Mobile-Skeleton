@@ -41,7 +41,7 @@ ul {
 }
 
 .modal-container {
-  background-color: #fff;
+  background-color: #fff ;
   width: 80%;
   height: 95%;
   margin: 26px auto;
@@ -51,6 +51,7 @@ ul {
 }
 
 .modal-content {
+  background-color: white;
   padding: 16px;
   position: relative;
   display: grid;
@@ -750,7 +751,8 @@ header {
 
   .btn {
     order: 4;
-    margin-left: 8rem;
+    margin-inline: auto;
+    margin-block: auto;
   }
 
   .modal-list {
@@ -767,8 +769,12 @@ header {
     align-self: flex-end;
     border-radius: 8px;
     padding: 5px;
-    background: #ebecf0;
-    height: 30px;
+    top: 0;
+  }
+
+  .times:hover {
+    font-size: 50px;
+    color:#36b37f
   }
 
   .first-section {

@@ -635,13 +635,15 @@ header {
 }
 
 .error-parent {
-  width: 100%;
+  width: 95%;
   display: none;
   margin-top: 1rem;
   color: red;
   border: 1px solid #000;
   border-radius: 4px;
   padding: 3%;
+  font-size: 0.9rem;
+  font-weight: bolder;
 }
 
 .btn-form {

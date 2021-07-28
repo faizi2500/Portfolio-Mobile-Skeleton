@@ -636,12 +636,12 @@ header {
 
 .error-parent {
   width: 100%;
-  /* visibility: hidden; */
   display: none;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   color: red;
   border: 1px solid #000;
   border-radius: 4px;
+  padding: 3%;
 }
 
 .btn-form {

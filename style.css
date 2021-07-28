@@ -636,6 +636,7 @@ header {
 
 .error-parent {
   width: 95%;
+  margin: auto;
   display: none;
   margin-top: 1rem;
   color: red;
@@ -644,6 +645,8 @@ header {
   padding: 3%;
   font-size: 0.9rem;
   font-weight: bolder;
+  z-index: 5;
+  background-color: white;
 }
 
 .btn-form {
@@ -1068,6 +1071,12 @@ header {
 
   #text-area {
     width: 100%;
+  }
+
+  .error-parent {
+    width: 75%;
+    /* background-color: gray; */
+    margin: 0;
   }
 
   .line-break {

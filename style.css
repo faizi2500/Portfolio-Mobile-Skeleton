@@ -634,6 +634,16 @@ header {
   margin-top: 30px;
 }
 
+.error-parent {
+  width: 100%;
+  /* visibility: hidden; */
+  display: none;
+  margin-bottom: 1rem;
+  color: red;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
 .btn-form {
   width: 129px;
   height: 48px;

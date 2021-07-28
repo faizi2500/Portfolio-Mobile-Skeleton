@@ -11,13 +11,19 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "G-2K50MM1JS8");
+      gtag('config', 'G-2K50MM1JS8');
     </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
@@ -78,7 +84,7 @@
           </ul>
         </nav>
       </section>
-<!-- mobile menu section  -->
+      <!-- mobile menu section  -->
 
       <section class="first-section desktop-first-section">
         <div class="flex-box">
@@ -171,7 +177,6 @@
           </div>
         </div>
       </section>
-
       <section class="work-section" id="portfolio-nav-link">
         <div class="opening-heading">
           <h2 class="work-heading">My Recent Works</h2>
@@ -207,7 +212,13 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(0)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
@@ -242,7 +253,13 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(1)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
@@ -277,7 +294,13 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(2)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
@@ -311,7 +334,13 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(3)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
@@ -346,7 +375,13 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(4)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
@@ -380,11 +415,43 @@
                 </ul>
               </li>
               <li class="display-flex-width btn-3 btn-project-1">
-                <button class="action-button" type="button">See Project</button>
+                <button
+                  onclick="modalFunction(5)"
+                  class="action-button"
+                  type="button"
+                >
+                  See Project
+                </button>
               </li>
             </ul>
           </div>
           <!--End of Desktop Grid Filling-->
+        </div>
+      </section>
+      <!-- Modal -->
+      <section class="modal-section invisible" id="modal">
+        <div class="modal-container">
+          <div class="modal-content">
+            <div class="modal-image">
+              <div class="times" onclick="toggle()">&times;</div>
+              <img src="assets/images/modal-img.png" alt="" class="img" />
+            </div>
+            <div class="modal-title">
+              <h2 class="about-heading modal-heading"></h2>
+            </div>
+            <ul class="modal-list"></ul>
+            <div class="modal-paragraph">
+              <p class="modal-p"></p>
+            </div>
+            <div class="btn">
+              <a href="" class="f-icon-1"
+                >See Live <i class="fas fa-external-link-alt f-icon"></i
+              ></a>
+              <a href="" class="f-icon-2"
+                >See Source <i class="fab fa-github f-icon f-icon-2"></i
+              ></a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -476,7 +543,6 @@
           </div>
         </div>
       </section>
-
       <footer class="footer-section footer" id="contact-nav-link">
         <div class="desktop-footer-section">
           <p class="footer-paragraph">
@@ -602,5 +668,6 @@
       </footer>
     </div>
     <script src="script.js"></script>
+    <script src="data.js"></script>
   </body>
 </html>

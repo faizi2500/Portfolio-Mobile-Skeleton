@@ -750,8 +750,13 @@ header {
 
   .modal-title {
     font-size: 1.7rem;
-    line-height: 44px;
+    /* line-height: 52px; */
     order: 3;
+  }
+
+  .modal-title h2 {
+    font-size: 2rem;
+    line-height: 44px;
   }
 
   .btn a {
@@ -761,7 +766,7 @@ header {
   .btn {
     order: 4;
     margin-inline: auto;
-    margin-block: auto;
+    margin-top: 5%;
   }
 
   .modal-list {

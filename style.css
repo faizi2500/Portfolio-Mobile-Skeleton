@@ -40,6 +40,11 @@ ul {
   overflow-y: hidden;
 }
 
+.modal-title h2 {
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
 .modal-container {
   background-color: #fff;
   width: 80%;
@@ -59,7 +64,7 @@ ul {
 }
 
 .modal-image {
-  width: 100%;
+  width: 85%;
 }
 
 .modal-image img {
@@ -68,8 +73,8 @@ ul {
 
 .times {
   position: absolute;
-  top: 30px;
-  right: 41px;
+  top: 5px;
+  right: 6px;
   font-size: 45px;
   cursor: pointer;
 }
@@ -80,7 +85,8 @@ ul {
   align-items: center;
   justify-content: start;
   margin: 12px 0;
-  font-size: 12px;
+  /* flex-wrap: wrap; */
+  font-size: 0.7rem;
   font-weight: 600;
 }
 
@@ -89,7 +95,7 @@ ul {
   background-color: #ebf0ee;
   color: #3a4a42;
   border-radius: 4px;
-  padding: 8px 12px;
+  padding: 8px 10px;
 }
 
 .modal-paragraph {
@@ -101,10 +107,11 @@ ul {
 .btn a {
   background-color: #36b37f;
   color: #fff;
-  font-size: 17px;
+  font-size: 0.8rem;
   font-weight: 500;
-  padding: 0.8rem 1.5rem;
-  margin-right: 12px;
+  padding: 0.8rem 0.7rem;
+  margin-right: 7px;
+  text-decoration: none;
 }
 
 .btn {
@@ -733,6 +740,7 @@ header {
   }
 
   .modal-image {
+    width: 100%;
     grid-column: span 2;
     order: 2;
   }

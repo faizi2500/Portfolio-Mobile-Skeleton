@@ -3,7 +3,7 @@ const emailControl = document.querySelector('#email-id');
 
 const alertMessage = document.createElement('p');
 alertMessage.classList.add('error-Message');
-alertMessage.textContent ='Your Email Address should only contain lowercase letters.';
+alertMessage.textContent = 'Your Email Address should only contain lowercase letters.';
 const errorParentDiv = document.querySelector('.error-parent');
 errorParentDiv.appendChild(alertMessage);
 

@@ -85,7 +85,6 @@ ul {
   align-items: center;
   justify-content: start;
   margin: 12px 0;
-  /* flex-wrap: wrap; */
   font-size: 0.7rem;
   font-weight: 600;
 }

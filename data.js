@@ -1,4 +1,4 @@
-let projectList = {
+const projectList = {
   firstProject: {
     image: {
       imageUrl: './assets/images/work-project1.png',
@@ -124,17 +124,17 @@ function modalFunction(number) {
   }
   buttonLive.setAttribute(
     'onclick',
-    `windows.open('${projects[number].liveVersion}', '_blank');`
+    `windows.open('${projects[number].liveVersion}', '_blank');`,
   );
   buttonLive.setAttribute(
     'onclick',
-    `windows.open('${projects[number].sourceCode}', '_blank');`
+    `windows.open('${projects[number].sourceCode}', '_blank');`,
   );
   modalDesc.innerHTML = projects[number].description;
 
   modalImg.setAttribute(
     'src',
-    `${projects[number].image.modalImage + (number + 1)}.png`
+    `${projects[number].image.modalImage + (number + 1)}.png`,
   );
 }
 

@@ -215,13 +215,13 @@ header {
 }
 
 .menu {
-  filter: invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg)
-    brightness(89%) contrast(86%);
+  filter: 
+  invert(65%) sepia(90%) saturate(550%) hue-rotate(65deg) brightness(89%) contrast(86%);
 }
 
 .menu:hover {
-  filter: invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg)
-    brightness(87%) contrast(77%);
+  filter: 
+  invert(68%) sepia(7%) saturate(3711%) hue-rotate(94deg) brightness(87%) contrast(77%);
 }
 
 .first-section {
@@ -774,7 +774,7 @@ header {
 
   .times:hover {
     font-size: 50px;
-    color:#36b37f
+    color: #36b37f;
   }
 
   .first-section {

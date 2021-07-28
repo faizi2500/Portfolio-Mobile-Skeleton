@@ -19,7 +19,7 @@ let projectList = {
     image: {
       imageUrl: './assets/images/work-project2.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img.png',
+      modalImage: './assets/images/modal-img',
     },
     projectHeading: 'Multi Post Stories: Gain + Glory',
     popupHeading: 'Keeping track of hundreds of components',
@@ -51,7 +51,7 @@ let projectList = {
     image: {
       imageUrl: './assets/images/work-project4.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img.png',
+      modalImage: './assets/images/modal-img',
     },
     projectHeading: 'Art Printing Portfolio',
     popupHeading: 'Keeping track of hundreds of components',
@@ -67,7 +67,7 @@ let projectList = {
     image: {
       imageUrl: './assets/images/work-project4.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img.png',
+      modalImage: './assets/images/modal-img',
     },
     projectHeading: 'Art Printing Portfolio',
     popupHeading: 'Keeping track of hundreds of components',
@@ -83,7 +83,7 @@ let projectList = {
     image: {
       imageUrl: './assets/images/work-project4.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img.png',
+      modalImage: './assets/images/modal-img',
     },
     projectHeading: 'Art Printing Portfolio',
     popupHeading: 'Keeping track of hundreds of components',

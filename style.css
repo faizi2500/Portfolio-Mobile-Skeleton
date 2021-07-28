@@ -755,6 +755,10 @@ header {
     order: 3;
   }
 
+  .btn a {
+    font-size: 1rem;
+  }
+
   .btn {
     order: 4;
     margin-inline: auto;

@@ -6,4 +6,9 @@ if (!localStorage.getItem('name')) {
   populateForm();
 } else setLocal();
 
-
+function populateForm() {
+  localStorage.setItem('name', document.getElementById('name').value);
+  localStorage.setItem('email-id', document.getElementById('email-id').value);
+  localStorage.setItem('text-area', document.getElementById('text-area').value);
+  setStorage();
+}

@@ -21,3 +21,8 @@ function setLocal() {
   document.getElementById('email-id').value = localemail;
   document.getElementById('text-area').value = localText;
 }
+
+userFullName.onchange = populateForm;
+userEmailId.onchange = populateForm;
+userTextMsg.onchange = populateForm;
+console.log(localStorage);

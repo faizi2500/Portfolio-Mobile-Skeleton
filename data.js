@@ -1,9 +1,9 @@
 const projectList = {
   firstProject: {
     image: {
-      imageUrl: './assets/images/work-project1.png',
+      imageUrl: './assets/images/Book-Store-CRM.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img',
+      modalImage: './assets/images/Book-Store-CRM.png',
     },
     projectHeading: 'Tonic Project: Personalized Reading',
     popupHeading: 'Keeping track of hundreds of components',
@@ -17,9 +17,9 @@ const projectList = {
 
   secondProject: {
     image: {
-      imageUrl: './assets/images/work-project2.png',
+      imageUrl: './assets/images/To-Do-Project.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img',
+      modalImage: './assets/images/To-Do-Project.png',
     },
     projectHeading: 'Multi Post Stories: Gain + Glory',
     popupHeading: 'Keeping track of hundreds of components',
@@ -33,9 +33,9 @@ const projectList = {
 
   thirdProject: {
     image: {
-      imageUrl: './assets/images/work-project3.png',
+      imageUrl: './assets/images/Calculator-project.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img',
+      modalImage: './assets/images/Calculator-project.png',
     },
     projectHeading: 'Health and Fitness Project',
     popupHeading: 'Keeping track of hundreds of components',
@@ -49,9 +49,9 @@ const projectList = {
 
   forthProject: {
     image: {
-      imageUrl: './assets/images/work-project4.png',
+      imageUrl: './assets/images/Leader-Board.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img',
+      modalImage: './assets/images/Leader-Board.png',
     },
     projectHeading: 'Art Printing Portfolio',
     popupHeading: 'Keeping track of hundreds of components',
@@ -65,15 +65,15 @@ const projectList = {
 
   fifthProject: {
     image: {
-      imageUrl: './assets/images/work-project4.png',
+      imageUrl: './assets/images/Meals-App.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img',
+      modalImage: './assets/images/Meals-App.png',
     },
     projectHeading: 'Art Printing Portfolio',
     popupHeading: 'Keeping track of hundreds of components',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    languages: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+      "This project is a clone of personal portfolio template from Figma. In this project, I did pair-programming with a developer from Morocco. We used Bootstrap for this project.",
+    languages: ['Bootstrap', 'CSS', 'HTML', 'Pair-Programming'],
     projectButton: 'See Project',
     liveVersion: 'https://faizi2500.github.io/Portfolio-Mobile-Skeleton/',
     sourceCode: 'https://github.com/faizi2500',
@@ -81,18 +81,18 @@ const projectList = {
 
   sixthProject: {
     image: {
-      imageUrl: './assets/images/work-project4.png',
+      imageUrl: './assets/images/Portfolio-Bootstrap.png',
       altText: 'This image is a project thumbnail',
-      modalImage: './assets/images/modal-img',
+      modalImage: './assets/images/Portfolio-Bootstrap.png',
     },
-    projectHeading: 'Art Printing Portfolio',
-    popupHeading: 'Keeping track of hundreds of components',
+    projectHeading: 'BootStrap Porject',
+    popupHeading: 'Keeping track of your online presence',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    languages: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+      "This project is a clone of personal portfolio template from Figma. In this project, I did pair-programming with a developer from Morocco, Amine. We used Bootstrap for this project. This project acts as a single consolidated source for individuals to share with recruiters. ",
+    languages: ['HTML', 'CSS', 'Bootstrap', 'Pair-Programming'],
     projectButton: 'See Project',
-    liveVersion: 'https://faizi2500.github.io/Portfolio-Mobile-Skeleton/',
-    sourceCode: 'https://github.com/faizi2500',
+    liveVersion: 'https://faizi2500.github.io/bootstrap-portfolio/',
+    sourceCode: 'https://github.com/faizi2500/bootstrap-portfolio',
   },
 };
 
@@ -134,7 +134,7 @@ function modalFunction(number) {
 
   modalImg.setAttribute(
     'src',
-    `${projects[number].image.modalImage + (number + 1)}.png`,
+    `${projects[number].image.modalImage}`,
   );
 }
 

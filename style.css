@@ -353,7 +353,7 @@ header {
 }
 
 .display-flex-1 {
-  height: 550px;
+  /* height: 550px; */
   width: 300px;
   margin: 0 auto;
   padding: 0;
@@ -372,6 +372,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .language-flex li {
@@ -389,6 +390,7 @@ header {
   border-radius: 4px;
   padding: 5px;
   color: #3a4a42;
+  margin: 1%;
 }
 
 .display-flex-width {
@@ -397,8 +399,9 @@ header {
 }
 
 .display-flex-width img {
-  width: 268px;
-  height: 252px;
+  /* width: 268px;
+  height: 252px; */
+  width: 100%;
 }
 
 .project-heading {
@@ -911,7 +914,7 @@ header {
   }
 
   .display-flex-width img {
-    display: none;
+    height: 100%;
   }
 
   .btn-3 {
